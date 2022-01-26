@@ -5,6 +5,7 @@ public class AlertDivByZero {
         possibleDiv(4);
         possibleDiv(0);
         possibleDiv(-4);
+        possibleDiv(-10);
     }
 
     public static void possibleDiv(int number) {
