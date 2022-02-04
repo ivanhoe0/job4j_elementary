@@ -71,7 +71,7 @@ public class FindLoopTest {
     }
 
     @Test
-    public void whenFind5() {
+    public void whenArrayHas5InIntervalFrom2To6Then5() {
         int[] data = new int[] {5, 2, 10, 2, 4, 5, 123, 34, -40};
         int el = 5;
         int start = 2;
@@ -82,7 +82,7 @@ public class FindLoopTest {
     }
 
     @Test
-    public void whenDoesntFind() {
+    public void whenArrayDoesntHave5ThenMinus1() {
         int[] data = new int[] {5, 2, 10, 2, 4, 5, 123, 34, -40};
         int el = 5;
         int start = 1;
